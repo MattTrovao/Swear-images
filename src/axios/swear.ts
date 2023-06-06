@@ -1,5 +1,9 @@
 import axios from "axios";
 
-export const swearApi = axios.create({
+export const foaas = axios.create({
   baseURL: 'https://www.foaas.com/'
+})
+
+export const unsplash = axios.create({
+  baseURL: 'https://api.unsplash.com/'
 })
